@@ -1,12 +1,11 @@
 import './App.css'
-import Login from './Login'
+import Product from './Product';
 
 function App() {
   return (
-    <div>
-      <h1>This is a Login Component</h1>
-      <Login/>
-    </div>
+    <>
+      <Product />
+    </>
   );
 }
 
