@@ -1,7 +1,9 @@
-function ProductItem(){
+import "./ProductItem.css";
+
+function ProductItem({title}) {
     return (
         <div>
-        <h2>This is a watch</h2>
+        <h2 className="product-title">{title}</h2>
         </div>
     );
 
