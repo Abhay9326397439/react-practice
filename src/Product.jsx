@@ -3,11 +3,10 @@ import ProductItem from "./ProductItem";
 function Product(){
     return (
         <div>
-      <ProductItem title="This is a watch"/>
-      <ProductItem title="This is a mobile"/>
-      <ProductItem title="This is a laptop"/>
-      <ProductItem title="This is a TV"/>
-
+      <ProductItem title="watch" price="100"/>
+      <ProductItem title="mobile" price="200"/>
+      <ProductItem title="laptop" price="300"/>
+      <ProductItem title="TV" price="400"/>
      </div>
     );
 }
