@@ -1,20 +1,38 @@
+function Login() {
+  const handleLogin = () => {
+    const uname = document.getElementById("uname").value;
 
-function Display(){
-    return (
-            alert("login successful")
-    );
-}
+    if (uname === "") {
+      alert("Please enter username");
+    } else {
+      alert("Login successful");
+    }
+  };
 
-function Login(){
-    return (
-        <div>
-            <form name="login">
-                Username:<input type="text" placeholder="Enter username"></input><br></br>
-                Password:<input type="password" placeholder="Enter password"></input><br></br>
-                <button onclick={Display()}>Login here</button>
-            </form>
-        </div>
-    );
+  return (
+    <div>
+      <form>
+        Username:
+        <input
+          type="text"
+          id="uname"
+          placeholder="Enter username"
+        />
+        <br /><br />
+
+        Password:
+        <input
+          type="password"
+          placeholder="Enter password"
+        />
+        <br /><br />
+
+        <button type="button" onClick={handleLogin}>
+          Login here
+        </button>
+      </form>
+    </div>
+  );
 }
 
 export default Login;
