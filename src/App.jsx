@@ -1,10 +1,10 @@
 import './App.css'
-import Product from './Product.jsx';
+import Login from './Login.jsx';
 
 function App() {
   return (
     <>
-      <Product />
+      <Login />
     </>
   );
 }
