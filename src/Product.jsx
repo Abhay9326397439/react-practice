@@ -6,7 +6,7 @@ function Product(){
     return (
         <div>
        <User name="Abhay" textColor="blue"/>
-       <User name="Manisha" backGroundColor="yellow"/>
+       <User name="harshad" backGroundColor="yellow"/>
       <ProductItem title="watch" price={5000} />
       <ProductItem title="mobile" price={3000}/>
       <ProductItem title="laptop" price={1000}/>
