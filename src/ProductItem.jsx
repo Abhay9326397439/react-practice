@@ -1,14 +1,13 @@
 import "./ProductItem.css";
 
-function ProductItem({ title, price }) {
+function ProductItem({ title, Description,Price}) {
     return (
-        <div>
-            <h2 className="product-title">
-                This is a {title} and product price is {price}
-            </h2>
-            {price >=3000 ? (<p> profit you 'll get: {price *0.30} </p>) : null}
+        <div className="product-Box">
+           <h2>{title}</h2>
+           <p className="product-des">{Description}</p>
+           <p className="product-price">{Price}</p>
         </div>
-    );
+    );  
 }
 
 export default ProductItem;
