@@ -1,10 +1,9 @@
 import './App.css'
-import Login from './Login.jsx';
-
+import Product from './Product.jsx'
 function App() {
   return (
     <>
-      <Login />
+      <Product />
     </>
   );
 }
