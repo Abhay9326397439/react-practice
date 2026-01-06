@@ -1,22 +1,34 @@
 import { useState } from "react";
 
 export default function Counter() {
-    let [count,setCount]=useState(0);
+  const [count, setCount] = useState(0);
 
-    let increment= ()=>{
-        setCount(count+1);
-      }
+  const increment = () => {
+    setCount(prev => prev + 1);
+  };
 
-      let Styles={
-         backgroundColor: "blue",
-      }
+  const decrement = () => {
+    setCount(prev => prev - 1);
+  };
 
-      return(
-        <div>
-            <h1>Counter app</h1>
-            <h2> counter result: {count}</h2>
-            <button  style={Styles} onClick={increment}>Increment</button>
-        </div>
-      );
+  const styles = {
+    backgroundColor: "yellow",
+    padding: "8px 16px",
+    margin: "5px",
+  };
 
+  return (
+    <div>
+      <h1>Counter App</h1>
+      <h2>Counter Result: {count}</h2>
+
+      <button style={styles} onClick={increment}>
+        Increment
+      </button>
+
+      <button style={styles} onClick={decrement}>
+        Decrement
+      </button>
+    </div>
+  );
 }
