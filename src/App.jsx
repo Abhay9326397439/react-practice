@@ -1,9 +1,9 @@
 import './App.css'
-import Product from './Product.jsx'
+import Counter from './Counter';
 function App() {
   return (
     <>
-      <Product />
+    <Counter />
     </>
   );
 }
