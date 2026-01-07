@@ -1,9 +1,9 @@
 import './App.css'
-import Counter from './Counter';
+import Heart from '../Heart';
 function App() {
   return (
     <>
-    <Counter />
+    <Heart />
     </>
   );
 }
