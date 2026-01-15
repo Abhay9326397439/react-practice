@@ -9,7 +9,7 @@ export default function Heart(){
     }
     let toggle=()=>{
         setLiked(!liked);
-        setCount(count+1);
+        setCount(count+2);
     }
     return (
         <div>
