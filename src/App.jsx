@@ -1,9 +1,9 @@
 import './App.css'
-import Heart from '../Heart';
+import Ludo from './ludo'
 function App() {
   return (
     <>
-    <Heart />
+    <Ludo />
     </>
   );
 }
