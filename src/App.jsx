@@ -1,9 +1,9 @@
 import './App.css'
-import Todo from './Todo';
+import Calculator from './component/Calculator';
 function App() {
   return (
     <>
-    <Todo />
+    <Calculator />
     </>
   );
 }
