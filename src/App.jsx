@@ -1,10 +1,15 @@
-import './App.css'
-import Calculator from './component/Calculator';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import FormPage from "./component/FormPage";
+import DisplayPage from "./component/DisplayPage";
 function App() {
   return (
-    <>
-    <Calculator />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<FormPage />} />
+        <Route path="/display" element={<DisplayPage />} />
+      </Routes>
+    </Router>
   );
 }
 
