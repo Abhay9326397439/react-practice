@@ -41,11 +41,4 @@ This repository is actively maintained and updated as part of ongoing practice.
 
 ---
 
-## 🙌 Author
-
-**Abhay**  
-IT Engineering Student
-
----
-
 ⭐ This repository represents continuous learning and practice.
